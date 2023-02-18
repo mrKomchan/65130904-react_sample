@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mrKomchan/65130904-react_sample/static/css/main.44f8b8b5.css",
+    "main.js": "/mrKomchan/65130904-react_sample/static/js/main.c2f87e6c.js",
+    "static/js/787.2c438de5.chunk.js": "/mrKomchan/65130904-react_sample/static/js/787.2c438de5.chunk.js",
+    "index.html": "/mrKomchan/65130904-react_sample/index.html",
+    "main.44f8b8b5.css.map": "/mrKomchan/65130904-react_sample/static/css/main.44f8b8b5.css.map",
+    "main.c2f87e6c.js.map": "/mrKomchan/65130904-react_sample/static/js/main.c2f87e6c.js.map",
+    "787.2c438de5.chunk.js.map": "/mrKomchan/65130904-react_sample/static/js/787.2c438de5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.c2f87e6c.js"
+  ]
+}
