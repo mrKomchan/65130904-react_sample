@@ -20,6 +20,9 @@ export default class report extends Component {
     district: [],
   };
   getData = async () => {
+    if(this.state.zipcode.length <5){
+      return false;
+    }
     try {
       await axios
         .get(`${BASE_URL}/${this.state.zipcode}`)
@@ -60,8 +63,8 @@ export default class report extends Component {
       <div>
         <Navbar bg="primary" variant="dark">
           <Container>
-            <Navbar.Brand href="#">ค้นหาเลขไปรษณีย์ update </Navbar.Brand>
-            <div>{/* Name */}</div>d
+            <Navbar.Brand href="#">ค้นหาเลขไปรษณีย์</Navbar.Brand>
+            <div style={{color:"#ffffff" , fontSize:"19px"}}>65130904 Komchan Rerkvises</div>
           </Container>
         </Navbar>
         <Container>
